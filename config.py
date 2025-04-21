@@ -152,8 +152,7 @@ WINDOW_WIDTH = 800
 WINDOW_HEIGHT = 600
 TITLE = 'Pygame Sound Menu'
 
-# Font Constant
-FONT = 'Roboto.ttf'
+
 
 # Sound Constants
 SOUND1 = ''
