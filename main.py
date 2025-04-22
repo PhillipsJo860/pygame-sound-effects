@@ -27,7 +27,6 @@ def draw_text(screen, text, font, text_color, y):
 def main():
     screen = init_game()
     clock = pygame.time.Clock()
-    music_active = False
     text_font = pygame.font.Font('Roboto.ttf', 30)
     text_color = (random.randrange(0, 254), random.randrange(0, 254), random.randrange(0, 254))
     instructions = ['Press "1" to play sound effect #1', 'Press "2" to play sound effect #2', 'Press "3" to play sound effect #3', 'Press "E" to begin/stop background music' ]
